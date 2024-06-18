@@ -1,0 +1,49 @@
+* {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  background-color: #fcfffe;
+  background-image: url(Asset/login\ bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Container */
+.container {
+  margin-top: 100px;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2b9781;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  color: #1d6758;
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #1d6758;
+}
+
+.btn-primary {
+  background-color: #2b9781;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 50px;
+  color: #e8f0ee;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,70 @@
+* {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  background-color: #fcfffe;
+  background-image: url(Asset/login\ bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: #ecf8f5;
+  border-radius: 10px;
+  padding: 50px;
+  width: 1440px;
+}
+
+h2 {
+  color: #1d6758;
+  font-weight: bold;
+}
+
+h3 {
+  color: #18caa5;
+  font-weight: bold;
+}
+
+table {
+  margin-top: 20px;
+}
+
+th {
+  background-color: #2b9781;
+  color: #e8f0ee;
+}
+
+td {
+  color: #1d6758;
+}
+
+.btn-primary {
+  background-color: #2b9781;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+.btn-success {
+  background-color: #18caa5;
+  border: none;
+}
+
+.btn-info {
+  background-color: #3498db;
+  border: none;
+}
+
+a {
+  color: #e8f0ee;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}

@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.latarBelakang {
+  background-image: url(Asset/login\ bg.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.registerCard {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.atas {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px 30% 0px 30px;
+  color: #45b59d;
+  align-items: center;
+}
+
+.atas h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.atas .icon {
+  padding-bottom: 30px;
+}
+
+.mainRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.input h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #45b59d;
+  margin-bottom: 10px;
+}
+
+.input input {
+  border-radius: 20px;
+  border: 1px solid #ad9c9c;
+  padding-left: 20px;
+  width: 100%;
+  height: 58px;
+  color: #1d6758;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.tombol {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  padding: 34px;
+  width: 100%;
+}
+
+.tombol button {
+  border-radius: 20px;
+  font-size: 26px;
+  background-color: #45b59d;
+  font-weight: bold;
+  color: #f2f2f2;
+  border: none;
+  padding: 5px;
+}
+
+.tombol p {
+  color: #45b59d;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tombol .daftarAkun {
+  background-color: #fff;
+  color: #45b59d;
+  border: 1.5px solid #2b9781;
+}
