@@ -1,0 +1,163 @@
+/* General styles */
+* {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  background-color: #fcfffe;
+}
+
+/* Navbar styles */
+nav {
+  padding: 38px 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fcfffe;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  margin-top: -20px;
+  top: 0;
+}
+
+/* Navbar logo */
+nav .logo {
+  font-weight: bold;
+  font-size: 35px;
+}
+nav .logo a {
+  color: #18caa5;
+  text-decoration: none;
+}
+
+nav .logo a span {
+  color: #1d6758;
+}
+
+/* Navbar container */
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav-container a {
+  color: #45b59d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-container .login-btn {
+  background-color: #2b9781;
+  border-radius: 30px;
+}
+.nav-container .login-btn a {
+  color: #e8f0ee;
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* Anggota section styles */
+.anggota {
+  padding: 100px 20px 50px 20px;
+  text-align: center;
+  background-color: #fcfffe;
+}
+
+.anggota h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #1d6758;
+}
+
+.anggota h2 span {
+  color: #18caa5;
+}
+
+.anggota-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.anggota-item {
+  background-color: #e8f0ee;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.anggota-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.anggota-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2b9781;
+}
+
+.anggota-item p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 75px;
+  font-size: 12px;
+  padding: 20px 83px 0px 83px;
+  background-color: #ecf8f5;
+  width: 100%;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 11px;
+}
+
+.footer-main .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-main .logo a {
+  color: #18caa5;
+}
+
+.footer-main .logo a span {
+  color: #1d6758;
+}
+
+.footer-content {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.baris h1 {
+  font-size: 15px;
+  color: #2b9781;
+}
+
+.baris p {
+  color: #777;
+}
+
+.icon a {
+  color: #2b9781;
+  margin-right: 10px;
+}
+
+.icon a:hover {
+  color: #18caa5;
+}

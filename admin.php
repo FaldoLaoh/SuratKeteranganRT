@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// Check if user is not logged in or is not an admin, redirect to login page
 
 
 // Database connection parameters
@@ -18,7 +17,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -81,11 +79,11 @@ if ($conn->connect_error) {
                         echo "<td>" . $row['rtrw'] . "</td>";
                         echo "<td>" . $row['alamat'] . "</td>";
                         echo "<td>" . $row['keperluan_Surat'] . "</td>";
-                        echo '<td>
-                                <a href="edit.php?id=' . $row['id_surat'] . '" class="btn btn-primary btn-sm">Edit</a>
-                                <a href="delete.php?id=' . $row['id_surat'] . '" class="btn btn-danger btn-sm">Delete</a>
-                                <a href="script/generateReport.php?id=' . $row['id_surat'] . '" class="btn btn-success btn-sm">Print PDF</a>
-                              </td>';
+                        echo '<td>';
+                        echo '<a href="edit.php?id=' . $row['id_surat'] . '" class="btn btn-primary btn-sm">Edit</a> ';
+                        echo '<a href="delete.php?id=' . $row['id_surat'] . '" class="btn btn-danger btn-sm">Delete</a> ';
+                        echo '<a href="script/generateReport.php?id=' . $row['id_surat'] . '" class="btn btn-success btn-sm">Print PDF</a>';
+                        echo '</td>';
                         echo "</tr>";
                     }
                 } else {
@@ -95,11 +93,14 @@ if ($conn->connect_error) {
             </tbody>
         </table>
 
-        <!-- Add New Record Button -->
-        <a href="add.php" class="btn btn-success">Add New Surat Ajuan</a>
+        <!-- Add New Record Button (disabled for admin) -->
+        <a href="halamanAjuan.php" class="btn btn-success">Add New Surat Ajuan</a>
+       
         
-        <!-- Print Report Button -->
+        <!-- Print Report Button (disabled for admin) -->
+       
         <a href="script/printReport.php" class="btn btn-info float-end">Print Report</a>
+        
     </div>
 
     <!-- Bootstrap JS -->

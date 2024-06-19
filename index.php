@@ -63,8 +63,8 @@ if(isset($_SESSION['username'])) {
       <div class="nav-container">
         <a href="#beranda">Beranda</a>
         <?php echo $ajukanButton; ?>
-        <a href="#caraKerja">Cara Kerja</a>
-        <a href="#tentangKami">Tentang kami</a>
+        <!-- <a href="#caraKerja">Cara Kerja</a> -->
+        <a href="tentangKami.php">Tentang kami</a>
         <div class="login-btn">
           <?php
           if (isset($_SESSION['username'])) {
@@ -94,7 +94,7 @@ if(isset($_SESSION['username'])) {
       </main>
     </section>
 
-    <!-- Section Cara -->
+    <!-- Section Cara
     <section class="sectionCara" id="sectionCara">
       <main class="sectionCara-main">
         <div class="cara-container">
@@ -111,7 +111,7 @@ if(isset($_SESSION['username'])) {
           </div>
         </div>
       </main>
-    </section>
+    </section> -->
 
     <footer>
       <main class="footer-main">

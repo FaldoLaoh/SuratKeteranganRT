@@ -56,7 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "kamu adalah admin";
             header("Location: ../admin.php");
 
-        } else {
+        } 
+        else {
             header("Location: ../index.php");
         }
         exit; // Ensure no further code execution after redirection
